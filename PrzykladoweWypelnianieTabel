@@ -1,0 +1,61 @@
+insert into Uczen values('','Jan','Kowalski');
+insert into Uczen values ('','Kamil','Nowak');
+insert into Uczen values ('','Krystyna','Kowalczyk');
+insert into Uczen values ('','Zuzanna','Kiec');
+insert into Uczen values ('','Wojciech','Gasz');
+
+insert into Nauczyciel values ('','Bogdan','Szymborska');
+insert into Nauczyciel values ('','Zbigniew','Milosz');
+insert into Nauczyciel values ('','Zygfryd','Baczynski');
+insert into Nauczyciel values ('','Karol','Kochanowski');
+insert into Nauczyciel values ('','Zofia','Mickiewicz');
+
+insert into Przedmiot values (1,'matematyka');
+insert into Przedmiot values (2,'jezyk polski');
+insert into Przedmiot values (3,'przyroda');
+insert into Przedmiot values (4,'wychowanie fizyczne');
+insert into Przedmiot values (5,'jezyk angielski');
+
+insert into Sala values ('',1,30);
+insert into Sala values ('',2,33);
+insert into Sala values ('',1,35);
+insert into Sala values ('',2,40);
+insert into Sala values ('',3,33);
+insert into Sala values ('',1,1);
+
+insert into GodzinaLekcyjna values ('','08:00:00', '08:45:00');
+insert into GodzinaLekcyjna values ('','08:55:00', '09:40:00');
+insert into GodzinaLekcyjna values ('','09:50:00', '09:35:00');
+insert into GodzinaLekcyjna values ('','09:45:00', '10:30:00');
+insert into GodzinaLekcyjna values ('','10:40:00', '11:25:00');
+
+insert into Specjalizacja values (1,1);
+insert into Specjalizacja values (1,2);
+insert into Specjalizacja values (2,2);
+insert into Specjalizacja values (3,1);
+insert into Specjalizacja values (4,4);
+insert into Specjalizacja values (5,3);
+
+insert into Klasa values ('','a',2013,1);
+insert into Klasa values ('','b',2013,2);
+insert into Klasa values ('','c',2013,3);
+insert into Klasa values ('','a',2014,4);
+insert into Klasa values ('','b',2014,5);
+
+insert into UczylSie values (1,1); 
+insert into UczylSie values (2,1); 
+insert into UczylSie values (3,1); 
+insert into UczylSie values (4,2); 
+insert into UczylSie values (5,2); 
+
+insert into Kurs values ('',1,1,2,2015);
+insert into Kurs values ('',1,2,3,2014);
+insert into Kurs values ('',3,1,1,2015);
+insert into Kurs values ('',3,1,5,2016);
+insert into Kurs values ('',4,4,4,2016);
+
+insert into Zajecia values ('',1,5,'poniedzialek',1);
+insert into Zajecia values ('',2,4,'wtorek',1);
+insert into Zajecia values ('',3,3,'sroda',2);
+insert into Zajecia values ('',4,2,'czwartek',2);
+insert into Zajecia values ('',2,1,'piatek',3);
